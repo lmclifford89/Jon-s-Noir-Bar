@@ -1,0 +1,513 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+}
+
+#mainContainer{
+	width: 100%; /*1567px;*/
+	height: auto;
+	margin: 0px;
+	padding:0px;
+	/*background-color: #DBD5D5;*/
+	/*background-image:url(baredit.jpg);*/
+	background-repeat:no-repeat;
+	
+}
+
+/*#logo {
+	width:980px;
+	hieght: 450px;
+	margin: 0;
+	padding:0;
+	
+}*/
+
+#navWrapper {
+	width: 100%; /*1585px;*/
+	height: 100px;
+	float: left;
+	/*background-color:#2E1010;*/
+	
+}
+
+#navigation {
+    width: auto;
+	height: 50px;
+	background-color: #000;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	/*background:linear-gradient( to top,#000, #333, #000 );*/
+	
+}
+
+
+#navigation ul {
+	list-style-type: none;
+	font-family: bettynoir, Verdana;
+	font-style:italic;
+	font-size: 18px;
+	text-align: center;
+	
+}
+
+#navigation li {
+	float:left;
+	padding-right: 190px;
+	padding-left: 10px;
+	
+}
+
+#navigation a {
+	border-style: none;
+	border-width: 0;
+	border-color: #F7EFEF;
+	padding: 10px;
+	text-decoration: none;
+	background-color: ;
+	color: white;
+}
+
+#navigation a:hover {
+	Color: black;
+	background-color:#F4F1F1;
+}
+
+/* index */
+.slide1 {
+    min-height: 560px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+}
+.slide1 {
+    background-image:url(images/bwimages/wine-martinis-beeredit.jpg);
+}
+
+.slide1 h1 {
+	font-family:bettynoir;
+	font-size:82px;
+	color:#FFF;
+	margin-left:20px;
+	padding-top: 400px;
+}
+
+.slide1 h2 {
+	font-family:bettynoir;
+	font-style:italic;
+	font-size:36px;
+	color:#FFF;
+	margin-left:50px;
+	padding-top: 0px;
+}
+
+.slide1 p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	font-size:12px;
+	color:#FFF;
+	margin-left:1370px;
+}
+
+/*end index */
+
+/*about*/
+	
+.slide2 {
+    min-height: 560px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+}
+.slide2 {
+    background-image:url(images/bwimages/5xNuyflip.jpg);
+}
+
+.slide2 h1 {
+	font-family:bettynoir, Verdana, Geneva, sans-serif;
+	font-size:36px;
+	color:#FFF;
+	margin-left:20px;
+	padding-top: 400px;
+}
+
+.slide2 p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-style:italic;
+	color:#FFF;
+	margin-left:25px;
+}
+
+#contentAbout{
+	margin-left: 0;
+}
+
+#contentAbout h2 {
+	font-size:64px; 
+	font-family: riesling;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#contentAbout p {
+	text-align:center; 
+	font-style:italic; 
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#contentAbout a {
+	text-decoration: none;
+	font-weight: bold;
+	color: grey;
+}
+
+/*end about */
+
+/* location*/
+.slide3 {
+    min-height: 560px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+}
+.slide3 {
+    background-image:url(images/bwimages/16077626329_aeb10b0e8d_oedit.jpg);
+}
+
+.slide3 h1 {
+	font-family:bettynoir,Verdana, Geneva, sans-serif;
+	font-size:36px;
+	color:#FFF;
+	margin-left:20px;
+	padding-top: 400px;
+}
+
+.slide3 p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-style:italic;
+	color:#FFF;
+	margin-left:25px;
+}
+
+
+#contentLoc h2 {
+	font-size:64px;
+	 font-family:riesling;
+	 text-align: center;
+}
+
+#contentLoc p{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-style: italic;
+	text-align: center;
+}
+
+#contentLoc img {
+	margin-left: 28%;
+}
+
+/*end location*/
+
+/* contact*/
+.slide4 {
+    min-height: 560px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+}
+.slide4 {
+    background-image:url(images/bwimages/v-piano_grand_theater_2_galedit.jpg);
+}
+
+.slide4 h1 {
+	font-family:bettynoir,Verdana, Geneva, sans-serif;
+	font-size:36px;
+	color:#FFF;
+	margin-left:20px;
+	padding-top: 400px;
+}
+
+.slide4 p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-style:italic;
+	color:#FFF;
+	margin-left:25px;
+}
+
+/*contact page form*/	
+#formTable  {
+	background:black;/*linear-gradient( to bottom, #666, #CCC);*/
+	border: 1px solid black;
+	width: 750px;
+	margin: 30px auto;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: white;
+	padding-bottom: 20px;	
+}
+
+#formTable h2 {
+	font-family:riesling,Verdana, Geneva, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+
+#formTable fieldset {
+	width: 65%;
+	margin-left: 15%; 
+	border: 2px solid grey;
+
+}
+	
+	
+#formTable input {
+width: 80%;
+background: #E5E5E5;/*#DFDCDC;*/
+display: inline;
+color: #ddd;
+border: 1px solid #473B3C;
+margin-left: 50px;
+font-family:arial;
+color:#353232;
+height: 30px;
+font-size: 13px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+
+#formTable p {
+	font-size: 12px;
+	display: inline;
+
+}
+
+
+#formTable textarea{
+	width:80%;
+	border-radius: 4px;
+	margin-left: 50px;
+	background: #DFDCDC;
+	border: 1px solid #473B3C;
+}
+
+
+		
+/*end contact form*/
+
+#contentContact img {
+	width: 50px;
+	height:50px;
+	margin-left: 40px;
+}
+
+
+#phoneP{
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight:lighter;
+	font-style: italic;
+	 font-size:2.5rem;
+	 display: inline;
+	 margin-left: 500px;
+	
+}
+
+
+/*end contact*/
+
+/* menu */
+.slide5 {
+    min-height: 560px;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+}
+.slide5 {
+    background-image:url(images/bwimages/9056edit.jpg);
+}
+
+.slide5 h1 {
+	font-family:bettynoir,Verdana, Geneva, sans-serif;
+	font-size:36px;
+	color:#FFF;
+	margin-left:20px;
+	padding-top: 400px;
+}
+
+.slide5 p {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-style:italic;
+	color:#FFF;
+	margin-left:25px;
+}
+
+#contentMenu{
+	margin-left: 35%;
+}
+
+
+
+/*end menu*/
+
+/*FOR ALL PAGES--------------*/
+.contentArea {
+	width: 100%;
+	height: 850px;
+	/*padding: 8px;*/
+	padding-top: 110px;
+	margin: 0px;
+	margin-top: 0px;
+	background-color: #FFF;
+	/* ----------------------*/
+}
+/*for index*/
+.contentAreaI {
+width: 100%; /*1580px;*/
+height: auto;
+margin-left: 0px;
+margin-top: 0px;
+padding: 0px;
+background-color:#FFF;
+float:left;
+text-align:center;
+/*border-style: solid;
+border-width: 2px;
+ border-color:#000*/
+}
+
+
+.contentAreaI h1 {
+	font-family:riesling,Verdana, Geneva, sans-serif;
+	font-style:italic;
+	font-size:64px;
+	
+}
+
+.contentAreaI h2 {
+	font-family: riesling,Verdana, Geneva, sans-serif;
+	font-style:italic;
+	font-size:64px;
+	
+	
+}
+
+.contentAreaI p {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+}
+
+.contentAreaI a {
+	font-style:italic;
+	text-decoration: none;
+	color: grey;
+	font-weight: bolder;
+}
+
+/*index*/
+#pictureBar {
+	width: 1500px;
+	height: auto;
+	margin-right: 0px;
+	padding: 0px;
+	float: right;
+	color:#000;
+	
+}
+
+.picArea {
+	 -moz-border-radius: 150px 150px;
+    -webkit-border-radius: 150px 150px;
+    border-radius: 150px 150px;
+    /*border:solid 2px #000;*/
+    width:300px;
+    height:300px; 
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right:50px;
+	float: right;
+}
+
+#pictureBar2 {
+	width: 1500px;
+	height: auto;
+	margin-left: 0px;
+	padding: 0;
+	float: left;
+	color:#000;
+}
+
+.picArea2 {
+	 -moz-border-radius: 150px 150px;
+    -webkit-border-radius: 150px 150px;
+    border-radius: 150px 150px;
+    /*border:solid 1px #000;*/
+    width:300px;
+    height:300px;  
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left:90px;
+	float: left;
+}
+
+
+hr.style8 {
+	width: 100%;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+hr.style8:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+/*index end*/
+
+/*footer*/
+
+#footer {
+	width: 100%; /*1585px;*/
+	height: 50px;
+	float: left;
+	background-color:#000;
+	/*background:linear-gradient( to top,#000, #333, #000 );*/
+}
+
+#footer p {
+	font-size:9px;
+	color:#F1F0F0;
+	padding-left:5px;
+}
+
+
+/*end footer*/
+
+
+
+
+
+@font-face{
+    font-family: "bettynoir";
+    src: url(bettynoir.ttf) format('truetype');
+    
+}
+	
+@font-face{
+    font-family: "riesling";
+    src:url(riesling.ttf) format('truetype');
+    
+}	
